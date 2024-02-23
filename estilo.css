@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Tahoma;
+    background-color:#ecebe9;
+}
+
+.secao {
+    width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.imagem-logo {
+    width: 300px;
+}
+
+.secao1 {
+    margin-bottom:50px;
+}
+
+.secao1 a{
+    text-decoration: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgba(222,142,55,255);
+    color: white;
+    transition: .4s;
+    display: inline-block;
+}
+
+a:hover {
+    transform:scale(1.05);
+    background-color:rgba(84,47,12,255);
+}
+
+.secao2 {
+    border-top: 1px solid rgba(222,142,55,255);
+}
+
+.secao2 h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.secao2 h2 {
+    color: #bb721f;
+    font-weight: normal;
+}
+
+.imgprodutos {
+    width: 800px;
+    border: dashed rgba(222,142,55,0.5) 3px;
+    border-radius: 10px;
+    padding: 2.5px;
+}
+
+.secao3 {
+    background-color: rgba(222,142,55,255);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.secao3 img {
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px dashed rgba(0,0,0,0.5);
+}
+
+.secao3 h3 {
+    font-size: 23px;
+}
+
+.secao3 h4 {
+    font-size: 19px;
+}
+
+.secao3 p {
+    padding: 5px;
+    line-height: 25px;
+}
+
+.secao3 .imgbolo {
+    margin-bottom: 40px;
+}
+
+.secao4 span {
+    font-weight: bold;
+}
+
+.secao4 .whatsapp {
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: bold;
+    color: black
+}
+
+.whatsapp:hover {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.secao5 iframe {
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.footer {
+    color: rgba(0,0,0,0.5)
+}
+
+
+
+
+
